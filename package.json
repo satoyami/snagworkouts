@@ -1,0 +1,26 @@
+{
+  "name": "snagworkouts",
+  "version": "1.0.0",
+  "description": "scrape websites to populate workout pool",
+  "main": "snagworkouts.js",
+  "scripts": {
+    "start": "node snagworkouts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/satoyami/snagworkouts.git"
+  },
+  "author": "AJ Engwall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satoyami/snagworkouts/issues"
+  },
+  "homepage": "https://github.com/satoyami/snagworkouts#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "htmlparser2": "^3.9.1",
+    "lodash": "^4.16.2",
+    "request": "^2.75.0"
+  }
+}
